@@ -1,0 +1,52 @@
+
+/* NAVIGATION STUFF GOES HERE  */
+
+#hamburgerBtn {
+    display: none;
+}
+
+#primaryNav {
+    display: flex;
+
+}
+
+nav {
+    ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+    ul li a {
+        border: none;
+        font-size: .85rem;
+        font-weight: $normalWeight;
+        padding: .5rem 1.2rem;
+        transition: 0.3s linear;
+    }
+}
+
+main {
+
+    .hero {
+        h2 {
+            top: 80%;
+            left: 25%;
+            max-width: none;
+        }
+    }
+    .row {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .clients-section .clients-grid {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+footer {
+    .locations {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+  

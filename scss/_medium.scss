@@ -1,0 +1,42 @@
+/* NAVIGATION STUFF GOES HERE  */
+
+nav ul {
+    width: 30%;
+    right: 0;
+    top: 80px; 
+    position: absolute;
+    z-index: 9999;
+}
+
+main {
+
+    .hero {
+        h2 {
+            top: 10%;
+            left: 75%;
+        }
+    }
+    .row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .clients-section .clients-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+    }
+    .client:nth-child(5) {
+        grid-column: 2;
+    }
+    .client:nth-child(6) {
+        grid-column: 3;
+    }
+}
+
+footer {
+    .locations {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-flow: row;
+    }
+}
+  
